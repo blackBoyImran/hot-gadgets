@@ -7,43 +7,53 @@
     <title>HOT GADGETS</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <script src="https://kit.fontawesome.com/2d21fa908a.js" crossorigin="anonymous"></script>
 </head>
 <body>
     
-  <header id="home">
-      <section class="navber">
-        <div class="container">
-            <nav class="nav_container">
-                <input type="checkbox" id="check">
-                <label for="check" class="checkBtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <label class="logo" for="label"><img src="images/logo.png" alt=""></label>
-                
-                <ul>
-                    <li><a class="active" href="#home">Home</a></li>
-                    <li><a href="#product">Smartphon</a></li>
-                    <li><a href="#laptop">Laptop</a></li>
-                    <li><a href="#categori">Categori</a></li>
-                    <li><a href="#">Contact us</a></li>
-                    <li><a href=""><button class="sign-up-btn">Sign up</button></a></li>
+
+
+    <header>
+      <div class="container" id="home">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <div class="logo">
+                    <a class="navbar-brand" href="#home">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+              <div class="navbar" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#product">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact us</a>
+                  </li>
                 </ul>
-            </nav>
-        </div>
-    
-    </section>
+              </div>
+            </div>
+          </nav>
+    </div>
     </header>
 
-    <section  class="slider margin-buttom">
+    <section class="slider">
         <div class="container">
           <div id="carouselExampleControls" class="carousel slide slider-bg" data-bs-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row d-flex align-items-center">
                   <div class="col-md-6 details">
-                      <h1 class="slide-icon-name">Mackbook pro</h1>
-                      <p class="slide-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium enim eius, voluptatem quia, aspernatur maxime tempora quasi excepturi, nihil consectetur eos. Libero, aliquam ab odit aliquid incidunt, quibusdam numquam, nemo fuga id similique eligendi impedit ipsum rerum nam dolorem?</p>
+                      <h1>Mackbook pro</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium enim eius, voluptatem quia, aspernatur maxime tempora quasi excepturi, nihil consectetur eos. Libero, aliquam ab odit aliquid incidunt, quibusdam numquam, nemo fuga id similique eligendi impedit ipsum rerum nam dolorem?</p>
                       <button class="buy-now-btn">Buy now</button>
                   </div>
                   <div class="col-md-6 d-flex align-items-center">
@@ -54,8 +64,8 @@
               <div class="carousel-item">
                 <div class="row d-flex align-items-center">
                   <div class="col-md-6 details">
-                      <h1 class="slide-icon-name">Mackbook pro</h1>
-                      <p class="slide-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium enim eius, voluptatem quia, aspernatur maxime tempora quasi excepturi, nihil consectetur eos. Libero, aliquam ab odit aliquid incidunt, quibusdam numquam, nemo fuga id similique eligendi impedit ipsum rerum nam dolorem?</p>
+                      <h1>Mackbook pro</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium enim eius, voluptatem quia, aspernatur maxime tempora quasi excepturi, nihil consectetur eos. Libero, aliquam ab odit aliquid incidunt, quibusdam numquam, nemo fuga id similique eligendi impedit ipsum rerum nam dolorem?</p>
                       <button class="buy-now-btn">Buy now</button>
                   </div>
                   <div class="col-md-6 d-flex align-items-center">
@@ -66,8 +76,8 @@
               <div class="carousel-item">
                 <div class="row d-flex align-items-center">
                   <div class="col-md-6 details">
-                      <h1 class="slide-icon-name">Mackbook pro</h1>
-                      <p class="slide-details">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium enim eius, voluptatem quia, aspernatur maxime tempora quasi excepturi, nihil consectetur eos. Libero, aliquam ab odit aliquid incidunt, quibusdam numquam, nemo fuga id similique eligendi impedit ipsum rerum nam dolorem?</p>
+                      <h1>Mackbook pro</h1>
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla praesentium enim eius, voluptatem quia, aspernatur maxime tempora quasi excepturi, nihil consectetur eos. Libero, aliquam ab odit aliquid incidunt, quibusdam numquam, nemo fuga id similique eligendi impedit ipsum rerum nam dolorem?</p>
                       <button class="buy-now-btn">Buy now</button>
                   </div>
                   <div class="col-md-6 d-flex align-items-center">
@@ -90,7 +100,7 @@
 
 
       
-    <section class="phon margin-buttom" id="product">
+    <section class="phon" id="product">
         <div class="container">
           <div class=" header-phon d-flex justify-content-between">
             <h3>Smartphon</h3>
@@ -144,10 +154,10 @@
 
 
       
-    <section id="laptop" class="phon margin-buttom">
+    <section class="phon">
       <div class="container">
         <div class=" header-phon d-flex justify-content-between">
-          <h3>Laptop</h3>
+          <h3>Smartphon</h3>
           <p>See all</p>
         </div>
         <div class="row row-cols-1 row-cols-md-3 g-4">
@@ -195,7 +205,7 @@
   </section>
 
 
-    <footer id="categori" class="footer margin-buttom">
+    <footer class="footer">
         <div class="container">
             <div class="footer-up">
                 <h3>Categoris</h3>
