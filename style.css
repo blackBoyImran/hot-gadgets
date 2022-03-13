@@ -8,6 +8,7 @@ nav .logo {
 nav .logo img {
   width: 150px;
 }
+
 nav .logo img:hover {
   cursor: pointer;
 }
@@ -20,9 +21,13 @@ nav .logo img:hover {
   font-weight: 400;
 }
 .sign-up-btn:hover {
+  background-color: #313131;
+}
+.sign-up-btn:hover {
   background-color: black;
   transition: 0.5s;
 }
+
 nav ul {
   float: right;
 }
@@ -40,7 +45,7 @@ nav ul li a {
   font-weight: 500;
 }
 nav ul li a:hover {
-  color: #fb5200;
+  color: #ff712a;
   transition: 0.3s;
 }
 .checkBtn {
@@ -105,7 +110,7 @@ nav ul li a:hover {
   background-repeat: no-repeat;
   background-position: center;
   padding: 10px 20px;
-  background-image: linear-gradient(45deg, #ff2424, #dfdff3);
+  background-image: linear-gradient(-45deg, #ff2424, #dfdff3);
   border: none;
   border-radius: 20px;
   margin-top: 20px;
@@ -116,11 +121,17 @@ nav ul li a:hover {
   line-height: 25px;
 }
 .buy-now-btn {
-  padding: 7px 25px;
+  padding: 7px 22px;
   color: white;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(39, 39, 39);
   border: none;
-  border-radius: 5px;
+  border-radius: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+}
+.buy-now-btn:hover {
+  background-color: #4e4e4e;
 }
 .phon-img img {
   width: 100%;
@@ -197,4 +208,10 @@ nav ul li a:hover {
 }
 .slide-details {
   color: white;
+}
+.fa-solid,
+.fas {
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  margin: 0px 15px;
 }
